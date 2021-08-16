@@ -1,0 +1,45 @@
+@import './scss/main.scss';
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+ul {
+  padding-top: 50px;
+  width: 80%;
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 0;
+}
+li {
+  text-align: left;
+  padding-bottom: 30px;
+}
+.item-container{
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.width--80{
+  width: 80%;
+}
+input {
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  border: 0;
+}
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+svg {
+  width: 2rem;
+  height: 1.2rem;
+}
